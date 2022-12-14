@@ -3,8 +3,6 @@
 #include <string>
 #include <utility>
 
-static constexpr TOML_STATIC_BUFFER_CAPACITY = 128;
-
 enum TOMLObjectTypeID {
 	TOMLInteger, TOMLString, TOMLFloat, TOMLBoolean,
 	TOML_OFFDATETIME TOML_LCLDATETIME, TOML_LCLDATE, TOML_LCLTIME,
