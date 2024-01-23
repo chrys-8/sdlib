@@ -1,5 +1,3 @@
-.exe/*
-.cs_files
-.cs_workspaces
+.*
 *.exe
 tags
